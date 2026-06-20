@@ -1,0 +1,49 @@
+NETWORK ANALYSIS REPORT
+=======================
+
+Total Packets: 1961
+
+Most Active IP: 172.19.136.142
+Packets: 500
+
+Most Targeted Destination: 172.19.136.142
+Packets Received: 720
+
+TOP 5 SOURCE IPS
+================
+172.19.136.142 -> 500
+185.199.108.133 -> 349
+20.42.179.204 -> 210
+20.190.145.142 -> 84
+172.19.136.238 -> 32
+
+TRAFFIC STATISTICS
+==================
+Unique Source IPs: 9
+
+PROTOCOL REPORT
+===============
+TCP: 1795
+UDP: 146
+ICMP: 0
+
+Most Used Protocol: TCP
+
+SECURITY ALERTS
+===============
+[HIGH] 172.19.136.142 generated 500 packets
+[MEDIUM] 185.199.108.133 generated 349 packets
+[MEDIUM] 20.42.179.204 generated 210 packets
+
+SCAN DETECTION
+==============
+172.19.136.142 -> Possible scanning activity
+185.199.108.133 -> Possible scanning activity
+
+PORT ANALYSIS
+=============
+HTTPS (443) -> 763 packets
+Unknown Service (52727) -> 349 packets
+Unknown Service (52743) -> 79 packets
+Unknown Service (61013) -> 72 packets
+Unknown Service (61012) -> 50 packets
